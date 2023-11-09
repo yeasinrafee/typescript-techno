@@ -10,8 +10,5 @@ const findFirstOccurrence = <T>(arr: T[], element: T): number => {
   }
 };
 
-console.log(findFirstOccurrence([1, 2, 3, 4, 3, 2, 5], 1));
-console.log(
-  findFirstOccurrence(["apple", "banana", "orange", "banana", "mango"], "apple")
-);
-console.log(findFirstOccurrence([1, 2, 3, 4, 5], 6));
+findFirstOccurrence([1, 2, 3, 4, 3, 2, 5], 1);
+findFirstOccurrence(["apple", "banana", "orange", "banana", "mango"], "apple");
